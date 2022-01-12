@@ -12,5 +12,8 @@
     "dynamodb"
   ],
   "author": "accenthink.io - Rico Fritzsche",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1056.0"
+  }
 }
