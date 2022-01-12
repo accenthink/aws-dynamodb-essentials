@@ -1,0 +1,16 @@
+{
+  "name": "aws-dynamodb-essentials",
+  "version": "0.0.1",
+  "description": "Provides basic functionality to effectively leverage AWS DynamoDB and avoid code redundancy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "node",
+    "dynamodb"
+  ],
+  "author": "accenthink.io - Rico Fritzsche",
+  "license": "ISC"
+}
