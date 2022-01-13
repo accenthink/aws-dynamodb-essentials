@@ -1,0 +1,7 @@
+# IDE
+.idea/
+*zip
+
+# BUILD
+dist/
+node_modules/

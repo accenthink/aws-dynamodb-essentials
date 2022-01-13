@@ -12,7 +12,7 @@ const configureDatabase = (options) => {
 
 module.exports.getInstance = (options) => {
   if (options){
-    configureDatabase();
+    configureDatabase(options);
   }
 
   return new AWS.DynamoDB();
