@@ -46,7 +46,7 @@ module.exports.createTable = async (params, options) => {
 }
 
 // Deletes the given table by its name.
-module.exports.deleteTable =  async (tableName) => {
+module.exports.deleteTable =  async (tableName, options) => {
     if (options){
       configureDatabase(options);
     }
@@ -63,7 +63,6 @@ module.exports.deleteTable =  async (tableName) => {
             console.log("deleteTable. Table description JSON:", JSON.stringify(data, null, 2));
             resolve(`SUCCESS :: Table ${params.TableName} deleted.`)
         }
-      })
-    }   
-
-});
+      });
+    }
+}
