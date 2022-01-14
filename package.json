@@ -1,6 +1,6 @@
 {
   "name": "aws-dynamodb-essentials",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Provides basic functionality to effectively leverage AWS DynamoDB and avoid code redundancy.",
   "main": "index.js",
   "scripts": {
