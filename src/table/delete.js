@@ -1,5 +1,5 @@
 // Deletes the given table by its name.
-const { instance } = require("../database/index.js");
+const { instance } = require('../database/index.js');
 
 module.exports.deleteTable =  async (tableName, options) => {
     console.log(`DELETE TABLE :: Try to delete table ${tableName}.`);
